@@ -1,0 +1,357 @@
+{"ts": "2026-10-22T17:33:50.035850+00:00", "event": "workflow_started", "run_id": "eval-run-001", "sandbox_name": "sbx-eval01-d512486622", "policy": "fresh"}
+{"ts": "2026-10-22T17:33:52.754276+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval01-d512486622", "cleanup_success": true}
+{"ts": "2026-10-22T17:33:52.809728+00:00", "event": "workflow_started", "run_id": "eval-run-002", "sandbox_name": "sbx-eval02-bf80398022", "policy": "fresh"}
+{"ts": "2026-10-22T17:33:54.674369+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval02-bf80398022", "cleanup_success": true}
+{"ts": "2026-10-22T17:33:54.729989+00:00", "event": "workflow_started", "run_id": "eval-run-003", "sandbox_name": "sbx-eval03-94cb2379b0", "policy": "fresh"}
+{"ts": "2026-10-22T17:33:57.402390+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval03-94cb2379b0", "cleanup_success": true}
+{"ts": "2026-10-22T17:33:57.471423+00:00", "event": "workflow_started", "run_id": "eval-run-004", "sandbox_name": "sbx-eval04-9180a1f2f2", "policy": "fresh"}
+{"ts": "2026-10-22T17:33:59.613232+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval04-9180a1f2f2", "cleanup_success": true}
+{"ts": "2026-10-22T17:33:59.670081+00:00", "event": "workflow_started", "run_id": "eval-run-005", "sandbox_name": "sbx-eval05-92c5f858e5", "policy": "fresh"}
+{"ts": "2026-10-22T17:34:01.834389+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval05-92c5f858e5", "cleanup_success": true}
+{"ts": "2026-10-22T17:34:01.916022+00:00", "event": "workflow_started", "run_id": "eval-run-006", "sandbox_name": "sbx-eval06-1d0c35bc2f", "policy": "fresh"}
+{"ts": "2026-10-22T17:34:04.039279+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval06-1d0c35bc2f", "cleanup_success": true}
+{"ts": "2026-10-22T17:34:04.094088+00:00", "event": "workflow_started", "run_id": "eval-run-007", "sandbox_name": "sbx-eval07-f2791ac587", "policy": "fresh"}
+{"ts": "2026-10-22T17:34:07.368585+00:00", "event": "step_failed", "run_id": "eval-run-007", "failed_step": 7, "error": "Controlled failure at step 7: exit code 42", "policy": "fresh"}
+{"ts": "2026-10-22T17:34:07.369133+00:00", "event": "policy_applied", "run_id": "eval-run-007", "policy": "fresh", "failed_step": 7, "total_steps": 10, "action": "Executing fresh recovery strategy"}
+{"ts": "2026-10-22T17:34:07.553551+00:00", "event": "recovery_completed", "run_id": "eval-run-007", "recovered_sandbox": "sbx-fresh-4b8dce5fc4", "success": true}
+{"ts": "2026-10-22T17:34:07.556391+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-fresh-4b8dce5fc4", "cleanup_success": true}
+{"ts": "2026-10-22T17:34:07.609554+00:00", "event": "workflow_started", "run_id": "eval-run-008", "sandbox_name": "sbx-eval08-c8d6e596f7", "policy": "fresh"}
+{"ts": "2026-10-22T17:34:09.447263+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval08-c8d6e596f7", "cleanup_success": true}
+{"ts": "2026-10-22T17:34:09.505183+00:00", "event": "workflow_started", "run_id": "eval-run-009", "sandbox_name": "sbx-eval09-a9a6b1b5d8", "policy": "fresh"}
+{"ts": "2026-10-22T17:34:11.376945+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval09-a9a6b1b5d8", "cleanup_success": true}
+{"ts": "2026-10-22T17:34:11.432712+00:00", "event": "workflow_started", "run_id": "eval-run-010", "sandbox_name": "sbx-eval10-f4b5c66d04", "policy": "fresh"}
+{"ts": "2026-10-22T17:34:13.272778+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval10-f4b5c66d04", "cleanup_success": true}
+{"ts": "2026-10-22T17:34:13.329214+00:00", "event": "workflow_started", "run_id": "eval-run-011", "sandbox_name": "sbx-eval11-f2849b8ed1", "policy": "fresh"}
+{"ts": "2026-10-22T17:34:15.234636+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval11-f2849b8ed1", "cleanup_success": true}
+{"ts": "2026-10-22T17:34:15.290148+00:00", "event": "workflow_started", "run_id": "eval-run-012", "sandbox_name": "sbx-eval12-4c7ac4caad", "policy": "fresh"}
+{"ts": "2026-10-22T17:34:17.127559+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval12-4c7ac4caad", "cleanup_success": true}
+{"ts": "2026-10-22T17:34:17.183283+00:00", "event": "workflow_started", "run_id": "eval-run-013", "sandbox_name": "sbx-eval13-aa9b0a7630", "policy": "fresh"}
+{"ts": "2026-10-22T17:34:19.067641+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval13-aa9b0a7630", "cleanup_success": true}
+{"ts": "2026-10-22T17:34:19.123593+00:00", "event": "workflow_started", "run_id": "eval-run-014", "sandbox_name": "sbx-eval14-68a02ee7f3", "policy": "fresh"}
+{"ts": "2026-10-22T17:34:21.024957+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval14-68a02ee7f3", "cleanup_success": true}
+{"ts": "2026-10-22T17:34:21.080056+00:00", "event": "workflow_started", "run_id": "eval-run-015", "sandbox_name": "sbx-eval15-fee6bfd509", "policy": "fresh"}
+{"ts": "2026-10-22T17:34:22.927289+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval15-fee6bfd509", "cleanup_success": true}
+{"ts": "2026-10-22T17:34:22.984268+00:00", "event": "workflow_started", "run_id": "eval-run-016", "sandbox_name": "sbx-eval16-d79daa5260", "policy": "fresh"}
+{"ts": "2026-10-22T17:34:24.876164+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval16-d79daa5260", "cleanup_success": true}
+{"ts": "2026-10-22T17:34:24.933707+00:00", "event": "workflow_started", "run_id": "eval-run-017", "sandbox_name": "sbx-eval17-eb30e70f37", "policy": "fresh"}
+{"ts": "2026-10-22T17:34:26.756917+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval17-eb30e70f37", "cleanup_success": true}
+{"ts": "2026-10-22T17:34:26.817099+00:00", "event": "workflow_started", "run_id": "eval-run-018", "sandbox_name": "sbx-eval18-7c91e951f9", "policy": "fresh"}
+{"ts": "2026-10-22T17:34:28.688859+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval18-7c91e951f9", "cleanup_success": true}
+{"ts": "2026-10-22T17:34:28.751015+00:00", "event": "workflow_started", "run_id": "eval-run-019", "sandbox_name": "sbx-eval19-8bef86ff77", "policy": "fresh"}
+{"ts": "2026-10-22T17:34:30.643278+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval19-8bef86ff77", "cleanup_success": true}
+{"ts": "2026-10-22T17:34:30.699559+00:00", "event": "workflow_started", "run_id": "eval-run-020", "sandbox_name": "sbx-eval20-56aef7d046", "policy": "fresh"}
+{"ts": "2026-10-22T17:34:32.608773+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval20-56aef7d046", "cleanup_success": true}
+{"ts": "2026-10-22T17:37:06.391310+00:00", "event": "workflow_started", "run_id": "run-4d680d43", "sandbox_name": "sbx-13bf768005", "policy": "fresh"}
+{"ts": "2026-10-22T17:37:08.337484+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-13bf768005", "cleanup_success": true}
+{"ts": "2026-10-22T17:37:08.341179+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-672a76b3db", "cleanup_success": true}
+{"ts": "2026-10-22T17:37:08.426480+00:00", "event": "workflow_started", "run_id": "run-2e4debea", "sandbox_name": "sbx-ed800a2de7", "policy": "fresh"}
+{"ts": "2026-10-22T17:37:08.426988+00:00", "event": "interrupted", "sandbox_name": "sbx-ed800a2de7"}
+{"ts": "2026-10-22T17:37:08.430000+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-ed800a2de7", "cleanup_success": true}
+{"ts": "2026-10-22T17:37:08.486321+00:00", "event": "workflow_started", "run_id": "run-f6cf534e", "sandbox_name": "sbx-08e18f0989", "policy": "fresh"}
+{"ts": "2026-10-22T17:37:10.395380+00:00", "event": "cleanup_failed", "sandbox_name": "sbx-08e18f0989", "error": "Docker daemon connection lost"}
+{"ts": "2026-10-22T17:37:10.453147+00:00", "event": "workflow_started", "run_id": "run-rec-fresh-01", "sandbox_name": "sbx-e8cde7e9e4", "policy": "fresh"}
+{"ts": "2026-10-22T17:37:12.110291+00:00", "event": "step_failed", "run_id": "run-rec-fresh-01", "failed_step": 7, "error": "Controlled failure at step 7: exit code 42", "policy": "fresh"}
+{"ts": "2026-10-22T17:37:12.110291+00:00", "event": "policy_applied", "run_id": "run-rec-fresh-01", "policy": "fresh", "failed_step": 7, "total_steps": 10, "action": "Executing fresh recovery strategy"}
+{"ts": "2026-10-22T17:37:12.284974+00:00", "event": "recovery_completed", "run_id": "run-rec-fresh-01", "recovered_sandbox": "sbx-fresh-5d466bbd40", "success": true}
+{"ts": "2026-10-22T17:37:12.287974+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-fresh-5d466bbd40", "cleanup_success": true}
+{"ts": "2026-10-22T17:37:12.363861+00:00", "event": "workflow_started", "run_id": "run-rec-rollback-01", "sandbox_name": "sbx-277dad6d74", "policy": "rollback"}
+{"ts": "2026-10-22T17:37:14.173129+00:00", "event": "step_failed", "run_id": "run-rec-rollback-01", "failed_step": 7, "error": "Controlled failure at step 7: exit code 42", "policy": "rollback"}
+{"ts": "2026-10-22T17:37:14.173129+00:00", "event": "policy_applied", "run_id": "run-rec-rollback-01", "policy": "rollback", "failed_step": 7, "total_steps": 10, "action": "Executing rollback recovery strategy"}
+{"ts": "2026-10-22T17:37:14.255788+00:00", "event": "recovery_completed", "run_id": "run-rec-rollback-01", "recovered_sandbox": "sbx-277dad6d74", "success": true}
+{"ts": "2026-10-22T17:37:14.258788+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-277dad6d74", "cleanup_success": true}
+{"ts": "2026-10-22T17:37:14.313983+00:00", "event": "workflow_started", "run_id": "run-fail-fatal", "sandbox_name": "sbx-671c9b6a1c", "policy": "fresh"}
+{"ts": "2026-10-22T17:37:16.226725+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-671c9b6a1c", "cleanup_success": true}
+{"ts": "2026-10-22T17:39:05.643229+00:00", "event": "workflow_started", "run_id": "run-bb48941e", "sandbox_name": "sbx-ef56bbe036", "policy": "fresh"}
+{"ts": "2026-10-22T17:39:07.566165+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-ef56bbe036", "cleanup_success": true}
+{"ts": "2026-10-22T17:39:07.569001+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-a7742fb38c", "cleanup_success": true}
+{"ts": "2026-10-22T17:39:07.794934+00:00", "event": "workflow_started", "run_id": "run-339df62a", "sandbox_name": "sbx-e01fb2a904", "policy": "fresh"}
+{"ts": "2026-10-22T17:39:07.796950+00:00", "event": "interrupted", "sandbox_name": "sbx-e01fb2a904"}
+{"ts": "2026-10-22T17:39:07.800158+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-e01fb2a904", "cleanup_success": true}
+{"ts": "2026-10-22T17:39:07.865147+00:00", "event": "workflow_started", "run_id": "run-32b15840", "sandbox_name": "sbx-e7919b947a", "policy": "fresh"}
+{"ts": "2026-10-22T17:39:09.902613+00:00", "event": "cleanup_failed", "sandbox_name": "sbx-e7919b947a", "error": "Docker daemon connection lost"}
+{"ts": "2026-10-22T17:45:26.692135+00:00", "event": "workflow_started", "run_id": "run-ffe4cc84", "sandbox_name": "sbx-4f92be9d08", "policy": "fresh"}
+{"ts": "2026-10-22T17:45:28.626066+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-4f92be9d08", "cleanup_success": true}
+{"ts": "2026-10-22T17:45:28.629709+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-96f11a5b2f", "cleanup_success": true}
+{"ts": "2026-10-22T17:45:28.685954+00:00", "event": "workflow_started", "run_id": "run-76289ece", "sandbox_name": "sbx-42c1a627db", "policy": "fresh"}
+{"ts": "2026-10-22T17:45:28.687485+00:00", "event": "interrupted", "sandbox_name": "sbx-42c1a627db"}
+{"ts": "2026-10-22T17:45:28.690528+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-42c1a627db", "cleanup_success": true}
+{"ts": "2026-10-22T17:45:28.747170+00:00", "event": "workflow_started", "run_id": "run-de93d824", "sandbox_name": "sbx-98e51c904f", "policy": "fresh"}
+{"ts": "2026-10-22T17:45:30.664011+00:00", "event": "cleanup_failed", "sandbox_name": "sbx-98e51c904f", "error": "Docker daemon connection lost"}
+{"ts": "2026-10-22T17:46:15.734172+00:00", "event": "workflow_started", "run_id": "run-rec-fresh-01", "sandbox_name": "sbx-b83c24ae1b", "policy": "fresh"}
+{"ts": "2026-10-22T17:46:17.505115+00:00", "event": "step_failed", "run_id": "run-rec-fresh-01", "failed_step": 7, "error": "Controlled failure at step 7: exit code 42", "policy": "fresh"}
+{"ts": "2026-10-22T17:46:17.505115+00:00", "event": "policy_applied", "run_id": "run-rec-fresh-01", "policy": "fresh", "failed_step": 7, "total_steps": 10, "action": "Executing fresh recovery strategy"}
+{"ts": "2026-10-22T17:46:17.667148+00:00", "event": "recovery_completed", "run_id": "run-rec-fresh-01", "recovered_sandbox": "sbx-fresh-5741788b89", "success": true}
+{"ts": "2026-10-22T17:46:17.668151+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-fresh-5741788b89", "cleanup_success": true}
+{"ts": "2026-10-22T17:46:17.744106+00:00", "event": "workflow_started", "run_id": "run-rec-rollback-01", "sandbox_name": "sbx-60cf9bde7e", "policy": "rollback"}
+{"ts": "2026-10-22T17:46:19.432218+00:00", "event": "step_failed", "run_id": "run-rec-rollback-01", "failed_step": 7, "error": "Controlled failure at step 7: exit code 42", "policy": "rollback"}
+{"ts": "2026-10-22T17:46:19.433216+00:00", "event": "policy_applied", "run_id": "run-rec-rollback-01", "policy": "rollback", "failed_step": 7, "total_steps": 10, "action": "Executing rollback recovery strategy"}
+{"ts": "2026-10-22T17:46:19.527659+00:00", "event": "recovery_completed", "run_id": "run-rec-rollback-01", "recovered_sandbox": "sbx-60cf9bde7e", "success": true}
+{"ts": "2026-10-22T17:46:19.531136+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-60cf9bde7e", "cleanup_success": true}
+{"ts": "2026-10-22T17:46:19.593471+00:00", "event": "workflow_started", "run_id": "run-fail-fatal", "sandbox_name": "sbx-9f9d8fd0a2", "policy": "fresh"}
+{"ts": "2026-10-22T17:46:21.609545+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-9f9d8fd0a2", "cleanup_success": true}
+{"ts": "2026-10-22T17:47:24.878851+00:00", "event": "workflow_started", "run_id": "eval-run-001", "sandbox_name": "sbx-eval012394053c47", "policy": "fresh"}
+{"ts": "2026-10-22T17:47:26.780548+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval012394053c47", "cleanup_success": true}
+{"ts": "2026-10-22T17:47:26.838831+00:00", "event": "workflow_started", "run_id": "eval-run-002", "sandbox_name": "sbx-eval02bd1b58f9aa", "policy": "fresh"}
+{"ts": "2026-10-22T17:47:28.704293+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval02bd1b58f9aa", "cleanup_success": true}
+{"ts": "2026-10-22T17:47:28.760693+00:00", "event": "workflow_started", "run_id": "eval-run-003", "sandbox_name": "sbx-eval03f9cfbdbaee", "policy": "fresh"}
+{"ts": "2026-10-22T17:47:30.595569+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval03f9cfbdbaee", "cleanup_success": true}
+{"ts": "2026-10-22T17:47:30.652546+00:00", "event": "workflow_started", "run_id": "eval-run-004", "sandbox_name": "sbx-eval0490bb622e2d", "policy": "fresh"}
+{"ts": "2026-10-22T17:47:32.475343+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval0490bb622e2d", "cleanup_success": true}
+{"ts": "2026-10-22T17:47:32.529697+00:00", "event": "workflow_started", "run_id": "eval-run-005", "sandbox_name": "sbx-eval05746c4ea930", "policy": "fresh"}
+{"ts": "2026-10-22T17:47:34.360683+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval05746c4ea930", "cleanup_success": true}
+{"ts": "2026-10-22T17:47:34.415860+00:00", "event": "workflow_started", "run_id": "eval-run-006", "sandbox_name": "sbx-eval062474dd2a08", "policy": "fresh"}
+{"ts": "2026-10-22T17:47:36.229551+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval062474dd2a08", "cleanup_success": true}
+{"ts": "2026-10-22T17:47:36.285066+00:00", "event": "workflow_started", "run_id": "eval-run-007", "sandbox_name": "sbx-eval07a5e3d26c8b", "policy": "fresh"}
+{"ts": "2026-10-22T17:47:37.987894+00:00", "event": "step_failed", "run_id": "eval-run-007", "failed_step": 7, "error": "Controlled failure at step 7: exit code 42", "policy": "fresh"}
+{"ts": "2026-10-22T17:47:37.989263+00:00", "event": "policy_applied", "run_id": "eval-run-007", "policy": "fresh", "failed_step": 7, "total_steps": 10, "action": "Executing fresh recovery strategy"}
+{"ts": "2026-10-22T17:47:38.180598+00:00", "event": "recovery_completed", "run_id": "eval-run-007", "recovered_sandbox": "sbx-fresh72dcd6cfd3", "success": true}
+{"ts": "2026-10-22T17:47:38.184895+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-fresh72dcd6cfd3", "cleanup_success": true}
+{"ts": "2026-10-22T17:47:38.241020+00:00", "event": "workflow_started", "run_id": "eval-run-008", "sandbox_name": "sbx-eval08c185ed5901", "policy": "fresh"}
+{"ts": "2026-10-22T17:47:40.114929+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval08c185ed5901", "cleanup_success": true}
+{"ts": "2026-10-22T17:47:40.171692+00:00", "event": "workflow_started", "run_id": "eval-run-009", "sandbox_name": "sbx-eval0976fbf327bd", "policy": "fresh"}
+{"ts": "2026-10-22T17:47:42.011391+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval0976fbf327bd", "cleanup_success": true}
+{"ts": "2026-10-22T17:47:42.069788+00:00", "event": "workflow_started", "run_id": "eval-run-010", "sandbox_name": "sbx-eval10f067bc2944", "policy": "fresh"}
+{"ts": "2026-10-22T17:47:43.844654+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval10f067bc2944", "cleanup_success": true}
+{"ts": "2026-10-22T17:47:43.902108+00:00", "event": "workflow_started", "run_id": "eval-run-011", "sandbox_name": "sbx-eval11448a6d36aa", "policy": "fresh"}
+{"ts": "2026-10-22T17:47:45.780496+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval11448a6d36aa", "cleanup_success": true}
+{"ts": "2026-10-22T17:47:45.838194+00:00", "event": "workflow_started", "run_id": "eval-run-012", "sandbox_name": "sbx-eval12ca2a44ba0c", "policy": "fresh"}
+{"ts": "2026-10-22T17:47:47.663401+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval12ca2a44ba0c", "cleanup_success": true}
+{"ts": "2026-10-22T17:47:47.723013+00:00", "event": "workflow_started", "run_id": "eval-run-013", "sandbox_name": "sbx-eval130be05726aa", "policy": "fresh"}
+{"ts": "2026-10-22T17:47:49.521303+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval130be05726aa", "cleanup_success": true}
+{"ts": "2026-10-22T17:47:49.578105+00:00", "event": "workflow_started", "run_id": "eval-run-014", "sandbox_name": "sbx-eval140d7889424a", "policy": "fresh"}
+{"ts": "2026-10-22T17:47:51.477145+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval140d7889424a", "cleanup_success": true}
+{"ts": "2026-10-22T17:47:51.530914+00:00", "event": "workflow_started", "run_id": "eval-run-015", "sandbox_name": "sbx-eval1556a6f1dc5a", "policy": "fresh"}
+{"ts": "2026-10-22T17:47:53.345520+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval1556a6f1dc5a", "cleanup_success": true}
+{"ts": "2026-10-22T17:47:53.403331+00:00", "event": "workflow_started", "run_id": "eval-run-016", "sandbox_name": "sbx-eval1624185b0a61", "policy": "fresh"}
+{"ts": "2026-10-22T17:47:55.338826+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval1624185b0a61", "cleanup_success": true}
+{"ts": "2026-10-22T17:47:55.395084+00:00", "event": "workflow_started", "run_id": "eval-run-017", "sandbox_name": "sbx-eval17b9765bf644", "policy": "fresh"}
+{"ts": "2026-10-22T17:47:57.230023+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval17b9765bf644", "cleanup_success": true}
+{"ts": "2026-10-22T17:47:57.289343+00:00", "event": "workflow_started", "run_id": "eval-run-018", "sandbox_name": "sbx-eval18ebfc8f13ac", "policy": "fresh"}
+{"ts": "2026-10-22T17:47:59.074360+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval18ebfc8f13ac", "cleanup_success": true}
+{"ts": "2026-10-22T17:47:59.138453+00:00", "event": "workflow_started", "run_id": "eval-run-019", "sandbox_name": "sbx-eval1933cf99659d", "policy": "fresh"}
+{"ts": "2026-10-22T17:48:00.962248+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval1933cf99659d", "cleanup_success": true}
+{"ts": "2026-10-22T17:48:01.017786+00:00", "event": "workflow_started", "run_id": "eval-run-020", "sandbox_name": "sbx-eval20ca0b6baf7f", "policy": "fresh"}
+{"ts": "2026-10-22T17:48:03.198544+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval20ca0b6baf7f", "cleanup_success": true}
+{"ts": "2026-10-22T17:49:02.642202+00:00", "event": "workflow_started", "run_id": "run-0cf82701", "sandbox_name": "sbx-a8a1651fbf", "policy": "fresh"}
+{"ts": "2026-10-22T17:49:04.558667+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-a8a1651fbf", "cleanup_success": true}
+{"ts": "2026-10-22T17:49:04.562815+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-1c689a7f21", "cleanup_success": true}
+{"ts": "2026-10-22T17:49:04.619445+00:00", "event": "workflow_started", "run_id": "run-2bf1d199", "sandbox_name": "sbx-336fe741b3", "policy": "fresh"}
+{"ts": "2026-10-22T17:49:04.621456+00:00", "event": "interrupted", "sandbox_name": "sbx-336fe741b3"}
+{"ts": "2026-10-22T17:49:04.622457+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-336fe741b3", "cleanup_success": true}
+{"ts": "2026-10-22T17:49:04.677538+00:00", "event": "workflow_started", "run_id": "run-103d362a", "sandbox_name": "sbx-eb567fbc15", "policy": "fresh"}
+{"ts": "2026-10-22T17:49:06.601654+00:00", "event": "cleanup_failed", "sandbox_name": "sbx-eb567fbc15", "error": "Docker daemon connection lost"}
+{"ts": "2026-10-22T17:49:06.659497+00:00", "event": "workflow_started", "run_id": "run-rec-fresh-01", "sandbox_name": "sbx-bbb8adc6d3", "policy": "fresh"}
+{"ts": "2026-10-22T17:49:08.381373+00:00", "event": "step_failed", "run_id": "run-rec-fresh-01", "failed_step": 7, "error": "Controlled failure at step 7: exit code 42", "policy": "fresh"}
+{"ts": "2026-10-22T17:49:08.382369+00:00", "event": "policy_applied", "run_id": "run-rec-fresh-01", "policy": "fresh", "failed_step": 7, "total_steps": 10, "action": "Executing fresh recovery strategy"}
+{"ts": "2026-10-22T17:49:08.564699+00:00", "event": "recovery_completed", "run_id": "run-rec-fresh-01", "recovered_sandbox": "sbx-fresh378303fc05", "success": true}
+{"ts": "2026-10-22T17:49:08.566700+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-fresh378303fc05", "cleanup_success": true}
+{"ts": "2026-10-22T17:49:08.644313+00:00", "event": "workflow_started", "run_id": "run-rec-rollback-01", "sandbox_name": "sbx-e5cf278572", "policy": "rollback"}
+{"ts": "2026-10-22T17:49:10.331522+00:00", "event": "step_failed", "run_id": "run-rec-rollback-01", "failed_step": 7, "error": "Controlled failure at step 7: exit code 42", "policy": "rollback"}
+{"ts": "2026-10-22T17:49:10.332525+00:00", "event": "policy_applied", "run_id": "run-rec-rollback-01", "policy": "rollback", "failed_step": 7, "total_steps": 10, "action": "Executing rollback recovery strategy"}
+{"ts": "2026-10-22T17:49:10.393340+00:00", "event": "recovery_completed", "run_id": "run-rec-rollback-01", "recovered_sandbox": "sbx-e5cf278572", "success": true}
+{"ts": "2026-10-22T17:49:10.396741+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-e5cf278572", "cleanup_success": true}
+{"ts": "2026-10-22T17:49:10.452586+00:00", "event": "workflow_started", "run_id": "run-fail-fatal", "sandbox_name": "sbx-39e9eaee2e", "policy": "fresh"}
+{"ts": "2026-10-22T17:49:12.286552+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-39e9eaee2e", "cleanup_success": true}
+{"ts": "2026-10-22T17:49:26.580287+00:00", "event": "workflow_started", "run_id": "run-5fba3826", "sandbox_name": "sbx-1b50f2a766", "policy": "fresh"}
+{"ts": "2026-10-22T17:49:28.536769+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-1b50f2a766", "cleanup_success": true}
+{"ts": "2026-10-22T17:49:28.541509+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-d4e88c9d5f", "cleanup_success": true}
+{"ts": "2026-10-22T17:49:28.598972+00:00", "event": "workflow_started", "run_id": "run-4e53de50", "sandbox_name": "sbx-a9eab35d3a", "policy": "fresh"}
+{"ts": "2026-10-22T17:49:28.600518+00:00", "event": "interrupted", "sandbox_name": "sbx-a9eab35d3a"}
+{"ts": "2026-10-22T17:49:28.603521+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-a9eab35d3a", "cleanup_success": true}
+{"ts": "2026-10-22T17:49:28.661891+00:00", "event": "workflow_started", "run_id": "run-8fe64c44", "sandbox_name": "sbx-748cb2d43b", "policy": "fresh"}
+{"ts": "2026-10-22T17:49:30.644315+00:00", "event": "cleanup_failed", "sandbox_name": "sbx-748cb2d43b", "error": "Docker daemon connection lost"}
+{"ts": "2026-10-22T17:49:30.706462+00:00", "event": "workflow_started", "run_id": "run-rec-fresh-01", "sandbox_name": "sbx-0ea79a7016", "policy": "fresh"}
+{"ts": "2026-10-22T17:49:32.447368+00:00", "event": "step_failed", "run_id": "run-rec-fresh-01", "failed_step": 7, "error": "Controlled failure at step 7: exit code 42", "policy": "fresh"}
+{"ts": "2026-10-22T17:49:32.448038+00:00", "event": "policy_applied", "run_id": "run-rec-fresh-01", "policy": "fresh", "failed_step": 7, "total_steps": 10, "action": "Executing fresh recovery strategy"}
+{"ts": "2026-10-22T17:49:32.625060+00:00", "event": "recovery_completed", "run_id": "run-rec-fresh-01", "recovered_sandbox": "sbx-fresh061b976c82", "success": true}
+{"ts": "2026-10-22T17:49:32.629399+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-fresh061b976c82", "cleanup_success": true}
+{"ts": "2026-10-22T17:49:32.708484+00:00", "event": "workflow_started", "run_id": "run-rec-rollback-01", "sandbox_name": "sbx-02db050f05", "policy": "rollback"}
+{"ts": "2026-10-22T17:49:34.313453+00:00", "event": "step_failed", "run_id": "run-rec-rollback-01", "failed_step": 7, "error": "Controlled failure at step 7: exit code 42", "policy": "rollback"}
+{"ts": "2026-10-22T17:49:34.317530+00:00", "event": "policy_applied", "run_id": "run-rec-rollback-01", "policy": "rollback", "failed_step": 7, "total_steps": 10, "action": "Executing rollback recovery strategy"}
+{"ts": "2026-10-22T17:49:34.394377+00:00", "event": "recovery_completed", "run_id": "run-rec-rollback-01", "recovered_sandbox": "sbx-02db050f05", "success": true}
+{"ts": "2026-10-22T17:49:34.397468+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-02db050f05", "cleanup_success": true}
+{"ts": "2026-10-22T17:49:34.454181+00:00", "event": "workflow_started", "run_id": "run-fail-fatal", "sandbox_name": "sbx-bc743f4b45", "policy": "fresh"}
+{"ts": "2026-10-22T17:49:36.253035+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-bc743f4b45", "cleanup_success": true}
+{"ts": "2026-10-23T03:21:39.221967+00:00", "event": "workflow_started", "run_id": "eval-run-001", "sandbox_name": "sbx-eval01cc52598311", "policy": "fresh"}
+{"ts": "2026-10-23T03:21:49.220984+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval01cc52598311", "cleanup_success": true}
+{"ts": "2026-10-23T03:21:49.347706+00:00", "event": "workflow_started", "run_id": "eval-run-002", "sandbox_name": "sbx-eval02a09a535d92", "policy": "fresh"}
+{"ts": "2026-10-23T03:22:03.077507+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval02a09a535d92", "cleanup_success": true}
+{"ts": "2026-10-23T03:22:03.477027+00:00", "event": "workflow_started", "run_id": "run-ca7c819f", "sandbox_name": "sbx-bb5a059146", "policy": "fresh"}
+{"ts": "2026-10-23T03:22:07.806200+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-bb5a059146", "cleanup_success": true}
+{"ts": "2026-10-23T03:22:07.814302+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-16c18011ab", "cleanup_success": true}
+{"ts": "2026-10-23T03:22:07.874045+00:00", "event": "workflow_started", "run_id": "run-11cc0751", "sandbox_name": "sbx-173e997155", "policy": "fresh"}
+{"ts": "2026-10-23T03:22:07.878058+00:00", "event": "interrupted", "sandbox_name": "sbx-173e997155"}
+{"ts": "2026-10-23T03:22:07.882164+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-173e997155", "cleanup_success": true}
+{"ts": "2026-10-23T03:22:07.943635+00:00", "event": "workflow_started", "run_id": "run-b6048c8f", "sandbox_name": "sbx-8fdff03315", "policy": "fresh"}
+{"ts": "2026-10-23T03:22:10.204979+00:00", "event": "cleanup_failed", "sandbox_name": "sbx-8fdff03315", "error": "Docker daemon connection lost"}
+{"ts": "2026-10-23T03:22:10.266447+00:00", "event": "workflow_started", "run_id": "run-rec-fresh-01", "sandbox_name": "sbx-055cb8ce17", "policy": "fresh"}
+{"ts": "2026-10-23T03:22:12.078098+00:00", "event": "step_failed", "run_id": "run-rec-fresh-01", "failed_step": 7, "error": "Controlled failure at step 7: exit code 42", "policy": "fresh"}
+{"ts": "2026-10-23T03:22:12.078098+00:00", "event": "policy_applied", "run_id": "run-rec-fresh-01", "policy": "fresh", "failed_step": 7, "total_steps": 10, "action": "Executing fresh recovery strategy"}
+{"ts": "2026-10-23T03:22:12.252392+00:00", "event": "recovery_completed", "run_id": "run-rec-fresh-01", "recovered_sandbox": "sbx-freshe467c85b23", "success": true}
+{"ts": "2026-10-23T03:22:12.256394+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-freshe467c85b23", "cleanup_success": true}
+{"ts": "2026-10-23T03:22:12.348736+00:00", "event": "workflow_started", "run_id": "run-rec-rollback-01", "sandbox_name": "sbx-2a96dbba27", "policy": "rollback"}
+{"ts": "2026-10-23T03:22:19.452541+00:00", "event": "step_failed", "run_id": "run-rec-rollback-01", "failed_step": 7, "error": "Controlled failure at step 7: exit code 42", "policy": "rollback"}
+{"ts": "2026-10-23T03:22:19.453550+00:00", "event": "policy_applied", "run_id": "run-rec-rollback-01", "policy": "rollback", "failed_step": 7, "total_steps": 10, "action": "Executing rollback recovery strategy"}
+{"ts": "2026-10-23T03:22:19.514454+00:00", "event": "recovery_completed", "run_id": "run-rec-rollback-01", "recovered_sandbox": "sbx-2a96dbba27", "success": true}
+{"ts": "2026-10-23T03:22:19.519653+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-2a96dbba27", "cleanup_success": true}
+{"ts": "2026-10-23T03:22:19.578959+00:00", "event": "workflow_started", "run_id": "run-fail-fatal", "sandbox_name": "sbx-175285ef6b", "policy": "fresh"}
+{"ts": "2026-10-23T03:22:21.280564+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-175285ef6b", "cleanup_success": true}
+{"ts": "2026-10-23T03:25:05.431421+00:00", "event": "workflow_started", "run_id": "run-52adf5a6", "sandbox_name": "sbx-51cd64555a", "policy": "fresh"}
+{"ts": "2026-10-23T03:25:07.992969+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-51cd64555a", "cleanup_success": true}
+{"ts": "2026-10-23T03:25:07.996962+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-8ee9d16d46", "cleanup_success": true}
+{"ts": "2026-10-23T03:25:08.052985+00:00", "event": "workflow_started", "run_id": "run-e60840bd", "sandbox_name": "sbx-b907375022", "policy": "fresh"}
+{"ts": "2026-10-23T03:25:08.055001+00:00", "event": "interrupted", "sandbox_name": "sbx-b907375022"}
+{"ts": "2026-10-23T03:25:08.059999+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-b907375022", "cleanup_success": true}
+{"ts": "2026-10-23T03:25:08.123577+00:00", "event": "workflow_started", "run_id": "run-81f2d74f", "sandbox_name": "sbx-f85be47a0f", "policy": "fresh"}
+{"ts": "2026-10-23T03:25:12.360195+00:00", "event": "cleanup_failed", "sandbox_name": "sbx-f85be47a0f", "error": "Docker daemon connection lost"}
+{"ts": "2026-10-23T03:26:27.801665+00:00", "event": "workflow_started", "run_id": "eval-run-001", "sandbox_name": "sbx-eval01d50a1e3736", "policy": "fresh"}
+{"ts": "2026-10-23T03:26:30.152605+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval01d50a1e3736", "cleanup_success": true}
+{"ts": "2026-10-23T03:26:30.208847+00:00", "event": "workflow_started", "run_id": "eval-run-002", "sandbox_name": "sbx-eval023166b6c142", "policy": "fresh"}
+{"ts": "2026-10-23T03:26:32.093376+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval023166b6c142", "cleanup_success": true}
+{"ts": "2026-10-23T03:26:32.157697+00:00", "event": "workflow_started", "run_id": "run-f6dac424", "sandbox_name": "sbx-94def04db3", "policy": "fresh"}
+{"ts": "2026-10-23T03:26:34.686321+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-94def04db3", "cleanup_success": true}
+{"ts": "2026-10-23T03:26:34.690340+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-99f67f48ec", "cleanup_success": true}
+{"ts": "2026-10-23T03:26:34.746788+00:00", "event": "workflow_started", "run_id": "run-adc93b53", "sandbox_name": "sbx-87a70e41c1", "policy": "fresh"}
+{"ts": "2026-10-23T03:26:34.747296+00:00", "event": "interrupted", "sandbox_name": "sbx-87a70e41c1"}
+{"ts": "2026-10-23T03:26:34.749306+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-87a70e41c1", "cleanup_success": true}
+{"ts": "2026-10-23T03:26:34.805950+00:00", "event": "workflow_started", "run_id": "run-b32e87c8", "sandbox_name": "sbx-03cc94ef5d", "policy": "fresh"}
+{"ts": "2026-10-23T03:26:36.885435+00:00", "event": "cleanup_failed", "sandbox_name": "sbx-03cc94ef5d", "error": "Docker daemon connection lost"}
+{"ts": "2026-10-23T03:26:36.943921+00:00", "event": "workflow_started", "run_id": "run-rec-fresh-01", "sandbox_name": "sbx-a928492104", "policy": "fresh"}
+{"ts": "2026-10-23T03:26:38.956453+00:00", "event": "step_failed", "run_id": "run-rec-fresh-01", "failed_step": 7, "error": "Controlled failure at step 7: exit code 42", "policy": "fresh"}
+{"ts": "2026-10-23T03:26:38.956453+00:00", "event": "policy_applied", "run_id": "run-rec-fresh-01", "policy": "fresh", "failed_step": 7, "total_steps": 10, "action": "Executing fresh recovery strategy"}
+{"ts": "2026-10-23T03:26:39.165055+00:00", "event": "recovery_completed", "run_id": "run-rec-fresh-01", "recovered_sandbox": "sbx-fresh5f59aa5824", "success": true}
+{"ts": "2026-10-23T03:26:39.168059+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-fresh5f59aa5824", "cleanup_success": true}
+{"ts": "2026-10-23T03:26:39.247641+00:00", "event": "workflow_started", "run_id": "run-rec-rollback-01", "sandbox_name": "sbx-58682ed7f6", "policy": "rollback"}
+{"ts": "2026-10-23T03:26:42.392063+00:00", "event": "step_failed", "run_id": "run-rec-rollback-01", "failed_step": 7, "error": "Controlled failure at step 7: exit code 42", "policy": "rollback"}
+{"ts": "2026-10-23T03:26:42.392063+00:00", "event": "policy_applied", "run_id": "run-rec-rollback-01", "policy": "rollback", "failed_step": 7, "total_steps": 10, "action": "Executing rollback recovery strategy"}
+{"ts": "2026-10-23T03:26:42.472344+00:00", "event": "recovery_completed", "run_id": "run-rec-rollback-01", "recovered_sandbox": "sbx-58682ed7f6", "success": true}
+{"ts": "2026-10-23T03:26:42.477371+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-58682ed7f6", "cleanup_success": true}
+{"ts": "2026-10-23T03:26:42.536158+00:00", "event": "workflow_started", "run_id": "run-fail-fatal", "sandbox_name": "sbx-e56b748284", "policy": "fresh"}
+{"ts": "2026-10-23T03:26:44.841516+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-e56b748284", "cleanup_success": true}
+{"ts": "2026-10-23T03:30:58.302860+00:00", "event": "workflow_started", "run_id": "eval-run-001", "sandbox_name": "sbx-eval017131d22bb2", "policy": "fresh"}
+{"ts": "2026-10-23T03:31:00.211813+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval017131d22bb2", "cleanup_success": true}
+{"ts": "2026-10-23T03:31:00.264985+00:00", "event": "workflow_started", "run_id": "eval-run-002", "sandbox_name": "sbx-eval02ff17e4edb9", "policy": "fresh"}
+{"ts": "2026-10-23T03:31:02.286681+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval02ff17e4edb9", "cleanup_success": true}
+{"ts": "2026-10-23T03:31:02.349880+00:00", "event": "workflow_started", "run_id": "run-fbc14578", "sandbox_name": "sbx-9453c25d04", "policy": "fresh"}
+{"ts": "2026-10-23T03:31:04.196452+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-9453c25d04", "cleanup_success": true}
+{"ts": "2026-10-23T03:31:04.201792+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-1ea6f37232", "cleanup_success": true}
+{"ts": "2026-10-23T03:31:04.266010+00:00", "event": "workflow_started", "run_id": "run-da1750d0", "sandbox_name": "sbx-989169357a", "policy": "fresh"}
+{"ts": "2026-10-23T03:31:04.269509+00:00", "event": "interrupted", "sandbox_name": "sbx-989169357a"}
+{"ts": "2026-10-23T03:31:04.290584+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-989169357a", "cleanup_success": true}
+{"ts": "2026-10-23T03:31:04.393924+00:00", "event": "workflow_started", "run_id": "run-f53dfc00", "sandbox_name": "sbx-e1e4931fbe", "policy": "fresh"}
+{"ts": "2026-10-23T03:31:06.830006+00:00", "event": "cleanup_failed", "sandbox_name": "sbx-e1e4931fbe", "error": "Docker daemon connection lost"}
+{"ts": "2026-10-23T03:31:06.886350+00:00", "event": "workflow_started", "run_id": "run-rec-fresh-01", "sandbox_name": "sbx-d34e0d5a0b", "policy": "fresh"}
+{"ts": "2026-10-23T03:31:08.559018+00:00", "event": "step_failed", "run_id": "run-rec-fresh-01", "failed_step": 7, "error": "Controlled failure at step 7: exit code 42", "policy": "fresh"}
+{"ts": "2026-10-23T03:31:08.559018+00:00", "event": "policy_applied", "run_id": "run-rec-fresh-01", "policy": "fresh", "failed_step": 7, "total_steps": 10, "action": "Executing fresh recovery strategy"}
+{"ts": "2026-10-23T03:31:08.744182+00:00", "event": "recovery_completed", "run_id": "run-rec-fresh-01", "recovered_sandbox": "sbx-fresh3aa9d1be84", "success": true}
+{"ts": "2026-10-23T03:31:08.747178+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-fresh3aa9d1be84", "cleanup_success": true}
+{"ts": "2026-10-23T03:31:08.823704+00:00", "event": "workflow_started", "run_id": "run-rec-rollback-01", "sandbox_name": "sbx-8c070a19a0", "policy": "rollback"}
+{"ts": "2026-10-23T03:31:10.470461+00:00", "event": "step_failed", "run_id": "run-rec-rollback-01", "failed_step": 7, "error": "Controlled failure at step 7: exit code 42", "policy": "rollback"}
+{"ts": "2026-10-23T03:31:10.470461+00:00", "event": "policy_applied", "run_id": "run-rec-rollback-01", "policy": "rollback", "failed_step": 7, "total_steps": 10, "action": "Executing rollback recovery strategy"}
+{"ts": "2026-10-23T03:31:10.534319+00:00", "event": "recovery_completed", "run_id": "run-rec-rollback-01", "recovered_sandbox": "sbx-8c070a19a0", "success": true}
+{"ts": "2026-10-23T03:31:10.537318+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-8c070a19a0", "cleanup_success": true}
+{"ts": "2026-10-23T03:31:10.595289+00:00", "event": "workflow_started", "run_id": "run-fail-fatal", "sandbox_name": "sbx-5c2340e665", "policy": "fresh"}
+{"ts": "2026-10-23T03:31:12.455353+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-5c2340e665", "cleanup_success": true}
+{"ts": "2026-10-23T04:46:36.779028+00:00", "event": "workflow_started", "run_id": "run-real-real880c9ba050", "sandbox_name": "sbx-real880c9ba050", "policy": "fresh"}
+{"ts": "2026-10-23T04:47:19.947525+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-real880c9ba050", "cleanup_success": true}
+{"ts": "2026-10-23T04:50:45.579071+00:00", "event": "workflow_started", "run_id": "run-recovery-fail78ce8b6b13a", "sandbox_name": "sbx-fail78ce8b6b13a", "policy": "fresh"}
+{"ts": "2026-10-23T04:51:11.266173+00:00", "event": "step_failed", "run_id": "run-recovery-fail78ce8b6b13a", "failed_step": 7, "error": "Controlled failure at step 7: exit code 42", "policy": "fresh"}
+{"ts": "2026-10-23T04:51:11.267407+00:00", "event": "policy_applied", "run_id": "run-recovery-fail78ce8b6b13a", "policy": "fresh", "failed_step": 7, "total_steps": 10, "action": "Executing fresh recovery strategy"}
+{"ts": "2026-10-23T04:51:33.316711+00:00", "event": "recovery_completed", "run_id": "run-recovery-fail78ce8b6b13a", "recovered_sandbox": "sbx-fresh2358233931", "success": true}
+{"ts": "2026-10-23T04:51:37.613342+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-fresh2358233931", "cleanup_success": true}
+{"ts": "2026-10-23T04:52:52.688744+00:00", "event": "workflow_started", "run_id": "eval-run-001", "sandbox_name": "sbx-eval0162070c4ae9", "policy": "fresh"}
+{"ts": "2026-10-23T04:52:54.554603+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval0162070c4ae9", "cleanup_success": true}
+{"ts": "2026-10-23T04:52:54.609720+00:00", "event": "workflow_started", "run_id": "eval-run-002", "sandbox_name": "sbx-eval0284463d975a", "policy": "fresh"}
+{"ts": "2026-10-23T04:52:56.309373+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval0284463d975a", "cleanup_success": true}
+{"ts": "2026-10-23T04:52:56.365752+00:00", "event": "workflow_started", "run_id": "run-36507c2a", "sandbox_name": "sbx-a60ad559c9", "policy": "fresh"}
+{"ts": "2026-10-23T04:52:58.136504+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-a60ad559c9", "cleanup_success": true}
+{"ts": "2026-10-23T04:52:58.139781+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-21ed869cd9", "cleanup_success": true}
+{"ts": "2026-10-23T04:52:58.194936+00:00", "event": "workflow_started", "run_id": "run-f0dd41b0", "sandbox_name": "sbx-f1ccdc2437", "policy": "fresh"}
+{"ts": "2026-10-23T04:52:58.195965+00:00", "event": "interrupted", "sandbox_name": "sbx-f1ccdc2437"}
+{"ts": "2026-10-23T04:52:58.196964+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-f1ccdc2437", "cleanup_success": true}
+{"ts": "2026-10-23T04:52:58.251205+00:00", "event": "workflow_started", "run_id": "run-7b9d398b", "sandbox_name": "sbx-78df88d322", "policy": "fresh"}
+{"ts": "2026-10-23T04:52:59.816181+00:00", "event": "cleanup_failed", "sandbox_name": "sbx-78df88d322", "error": "Docker daemon connection lost"}
+{"ts": "2026-10-23T04:52:59.872237+00:00", "event": "workflow_started", "run_id": "run-rec-fresh-01", "sandbox_name": "sbx-e1a5753010", "policy": "fresh"}
+{"ts": "2026-10-23T04:53:01.339341+00:00", "event": "step_failed", "run_id": "run-rec-fresh-01", "failed_step": 7, "error": "Controlled failure at step 7: exit code 42", "policy": "fresh"}
+{"ts": "2026-10-23T04:53:01.339341+00:00", "event": "policy_applied", "run_id": "run-rec-fresh-01", "policy": "fresh", "failed_step": 7, "total_steps": 10, "action": "Executing fresh recovery strategy"}
+{"ts": "2026-10-23T04:53:01.521754+00:00", "event": "recovery_completed", "run_id": "run-rec-fresh-01", "recovered_sandbox": "sbx-freshdea5aaf00d", "success": true}
+{"ts": "2026-10-23T04:53:01.525068+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-freshdea5aaf00d", "cleanup_success": true}
+{"ts": "2026-10-23T04:53:01.605416+00:00", "event": "workflow_started", "run_id": "run-rec-rollback-01", "sandbox_name": "sbx-9a6e70bd08", "policy": "rollback"}
+{"ts": "2026-10-23T04:53:03.142240+00:00", "event": "step_failed", "run_id": "run-rec-rollback-01", "failed_step": 7, "error": "Controlled failure at step 7: exit code 42", "policy": "rollback"}
+{"ts": "2026-10-23T04:53:03.142749+00:00", "event": "policy_applied", "run_id": "run-rec-rollback-01", "policy": "rollback", "failed_step": 7, "total_steps": 10, "action": "Executing rollback recovery strategy"}
+{"ts": "2026-10-23T04:53:03.204714+00:00", "event": "recovery_completed", "run_id": "run-rec-rollback-01", "recovered_sandbox": "sbx-9a6e70bd08", "success": true}
+{"ts": "2026-10-23T04:53:03.206713+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-9a6e70bd08", "cleanup_success": true}
+{"ts": "2026-10-23T04:53:03.264361+00:00", "event": "workflow_started", "run_id": "run-fail-fatal", "sandbox_name": "sbx-2dfa676c63", "policy": "fresh"}
+{"ts": "2026-10-23T04:53:04.834854+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-2dfa676c63", "cleanup_success": true}
+{"ts": "2026-10-23T09:21:05.324495+00:00", "event": "workflow_started", "run_id": "eval-run-001", "sandbox_name": "sbx-eval01ec4bfa564e", "policy": "fresh"}
+{"ts": "2026-10-23T09:21:08.161584+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval01ec4bfa564e", "cleanup_success": true}
+{"ts": "2026-10-23T09:21:08.214509+00:00", "event": "workflow_started", "run_id": "eval-run-002", "sandbox_name": "sbx-eval025a4de9cd37", "policy": "fresh"}
+{"ts": "2026-10-23T09:21:10.401248+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval025a4de9cd37", "cleanup_success": true}
+{"ts": "2026-10-23T09:21:10.501655+00:00", "event": "workflow_started", "run_id": "run-f347cbf3", "sandbox_name": "sbx-99cb4c8965", "policy": "fresh"}
+{"ts": "2026-10-23T09:21:13.628772+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-99cb4c8965", "cleanup_success": true}
+{"ts": "2026-10-23T09:21:13.633782+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-1b0e0d2527", "cleanup_success": true}
+{"ts": "2026-10-23T09:21:13.700133+00:00", "event": "workflow_started", "run_id": "run-f4d22205", "sandbox_name": "sbx-7c118cc2a1", "policy": "fresh"}
+{"ts": "2026-10-23T09:21:13.704134+00:00", "event": "interrupted", "sandbox_name": "sbx-7c118cc2a1"}
+{"ts": "2026-10-23T09:21:13.713134+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-7c118cc2a1", "cleanup_success": true}
+{"ts": "2026-10-23T09:21:13.775926+00:00", "event": "workflow_started", "run_id": "run-f87ced03", "sandbox_name": "sbx-b539213df2", "policy": "fresh"}
+{"ts": "2026-10-23T09:21:16.132550+00:00", "event": "cleanup_failed", "sandbox_name": "sbx-b539213df2", "error": "Docker daemon connection lost"}
+{"ts": "2026-10-23T09:21:16.220021+00:00", "event": "workflow_started", "run_id": "run-rec-fresh-01", "sandbox_name": "sbx-b5cb2ba201", "policy": "fresh"}
+{"ts": "2026-10-23T09:21:18.147076+00:00", "event": "step_failed", "run_id": "run-rec-fresh-01", "failed_step": 7, "error": "Controlled failure at step 7: exit code 42", "policy": "fresh"}
+{"ts": "2026-10-23T09:21:18.148074+00:00", "event": "policy_applied", "run_id": "run-rec-fresh-01", "policy": "fresh", "failed_step": 7, "total_steps": 10, "action": "Executing fresh recovery strategy"}
+{"ts": "2026-10-23T09:21:18.373081+00:00", "event": "recovery_completed", "run_id": "run-rec-fresh-01", "recovered_sandbox": "sbx-fresh65bc714690", "success": true}
+{"ts": "2026-10-23T09:21:18.377080+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-fresh65bc714690", "cleanup_success": true}
+{"ts": "2026-10-23T09:21:18.456056+00:00", "event": "workflow_started", "run_id": "run-rec-rollback-01", "sandbox_name": "sbx-37f5f2b315", "policy": "rollback"}
+{"ts": "2026-10-23T09:21:20.272563+00:00", "event": "step_failed", "run_id": "run-rec-rollback-01", "failed_step": 7, "error": "Controlled failure at step 7: exit code 42", "policy": "rollback"}
+{"ts": "2026-10-23T09:21:20.281565+00:00", "event": "policy_applied", "run_id": "run-rec-rollback-01", "policy": "rollback", "failed_step": 7, "total_steps": 10, "action": "Executing rollback recovery strategy"}
+{"ts": "2026-10-23T09:21:20.525494+00:00", "event": "recovery_completed", "run_id": "run-rec-rollback-01", "recovered_sandbox": "sbx-37f5f2b315", "success": true}
+{"ts": "2026-10-23T09:21:20.535353+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-37f5f2b315", "cleanup_success": true}
+{"ts": "2026-10-23T09:21:20.617762+00:00", "event": "workflow_started", "run_id": "run-fail-fatal", "sandbox_name": "sbx-fc2705142e", "policy": "fresh"}
+{"ts": "2026-10-23T09:21:22.670090+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-fc2705142e", "cleanup_success": true}
+{"ts": "2026-10-24T02:39:38.456635+00:00", "event": "workflow_started", "run_id": "eval-run-001", "sandbox_name": "sbx-eval01fd92a1c5de", "policy": "fresh"}
+{"ts": "2026-10-24T02:39:41.449307+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval01fd92a1c5de", "cleanup_success": true}
+{"ts": "2026-10-24T02:39:41.504941+00:00", "event": "workflow_started", "run_id": "eval-run-002", "sandbox_name": "sbx-eval02af986eb8bf", "policy": "fresh"}
+{"ts": "2026-10-24T02:39:43.317869+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval02af986eb8bf", "cleanup_success": true}
+{"ts": "2026-10-24T02:39:43.377324+00:00", "event": "workflow_started", "run_id": "run-d15bf655", "sandbox_name": "sbx-2f6e28ecb5", "policy": "fresh"}
+{"ts": "2026-10-24T02:39:45.328077+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-2f6e28ecb5", "cleanup_success": true}
+{"ts": "2026-10-24T02:39:45.331884+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-6744c5a2bb", "cleanup_success": true}
+{"ts": "2026-10-24T02:39:45.389776+00:00", "event": "workflow_started", "run_id": "run-228fc641", "sandbox_name": "sbx-2432195a49", "policy": "fresh"}
+{"ts": "2026-10-24T02:39:45.392791+00:00", "event": "interrupted", "sandbox_name": "sbx-2432195a49"}
+{"ts": "2026-10-24T02:39:45.401871+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-2432195a49", "cleanup_success": true}
+{"ts": "2026-10-24T02:39:45.468845+00:00", "event": "workflow_started", "run_id": "run-cabcd13a", "sandbox_name": "sbx-555a75e41b", "policy": "fresh"}
+{"ts": "2026-10-24T02:39:47.528114+00:00", "event": "cleanup_failed", "sandbox_name": "sbx-555a75e41b", "error": "Docker daemon connection lost"}
+{"ts": "2026-10-24T02:39:47.590040+00:00", "event": "workflow_started", "run_id": "run-rec-fresh-01", "sandbox_name": "sbx-357cbef182", "policy": "fresh"}
+{"ts": "2026-10-24T02:39:49.238151+00:00", "event": "step_failed", "run_id": "run-rec-fresh-01", "failed_step": 7, "error": "Controlled failure at step 7: exit code 42", "policy": "fresh"}
+{"ts": "2026-10-24T02:39:49.239154+00:00", "event": "policy_applied", "run_id": "run-rec-fresh-01", "policy": "fresh", "failed_step": 7, "total_steps": 10, "action": "Executing fresh recovery strategy"}
+{"ts": "2026-10-24T02:39:49.429287+00:00", "event": "recovery_completed", "run_id": "run-rec-fresh-01", "recovered_sandbox": "sbx-fresh44bd6dc591", "success": true}
+{"ts": "2026-10-24T02:39:49.433846+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-fresh44bd6dc591", "cleanup_success": true}
+{"ts": "2026-10-24T02:39:49.522286+00:00", "event": "workflow_started", "run_id": "run-rec-rollback-01", "sandbox_name": "sbx-19d663a46f", "policy": "rollback"}
+{"ts": "2026-10-24T02:39:51.424771+00:00", "event": "step_failed", "run_id": "run-rec-rollback-01", "failed_step": 7, "error": "Controlled failure at step 7: exit code 42", "policy": "rollback"}
+{"ts": "2026-10-24T02:39:51.424771+00:00", "event": "policy_applied", "run_id": "run-rec-rollback-01", "policy": "rollback", "failed_step": 7, "total_steps": 10, "action": "Executing rollback recovery strategy"}
+{"ts": "2026-10-24T02:39:51.499428+00:00", "event": "recovery_completed", "run_id": "run-rec-rollback-01", "recovered_sandbox": "sbx-19d663a46f", "success": true}
+{"ts": "2026-10-24T02:39:51.502426+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-19d663a46f", "cleanup_success": true}
+{"ts": "2026-10-24T02:39:51.559773+00:00", "event": "workflow_started", "run_id": "run-fail-fatal", "sandbox_name": "sbx-805518f639", "policy": "fresh"}
+{"ts": "2026-10-24T02:39:53.563518+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-805518f639", "cleanup_success": true}
+{"ts": "2026-10-24T02:41:29.696883+00:00", "event": "workflow_started", "run_id": "eval-run-001", "sandbox_name": "sbx-eval01014d306bd6", "policy": "fresh"}
+{"ts": "2026-10-24T02:41:31.908818+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval01014d306bd6", "cleanup_success": true}
+{"ts": "2026-10-24T02:41:31.963896+00:00", "event": "workflow_started", "run_id": "eval-run-002", "sandbox_name": "sbx-eval022f262cdb98", "policy": "fresh"}
+{"ts": "2026-10-24T02:41:33.943391+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-eval022f262cdb98", "cleanup_success": true}
+{"ts": "2026-10-24T02:41:34.012484+00:00", "event": "workflow_started", "run_id": "run-37f3f6db", "sandbox_name": "sbx-1b5d9ebb88", "policy": "fresh"}
+{"ts": "2026-10-24T02:41:36.015253+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-1b5d9ebb88", "cleanup_success": true}
+{"ts": "2026-10-24T02:41:36.020751+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-5ecf463fac", "cleanup_success": true}
+{"ts": "2026-10-24T02:41:36.081144+00:00", "event": "workflow_started", "run_id": "run-ffcfd3d1", "sandbox_name": "sbx-267d0e57fc", "policy": "fresh"}
+{"ts": "2026-10-24T02:41:36.082158+00:00", "event": "interrupted", "sandbox_name": "sbx-267d0e57fc"}
+{"ts": "2026-10-24T02:41:36.084159+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-267d0e57fc", "cleanup_success": true}
+{"ts": "2026-10-24T02:41:36.145695+00:00", "event": "workflow_started", "run_id": "run-62b15810", "sandbox_name": "sbx-dfff6648a8", "policy": "fresh"}
+{"ts": "2026-10-24T02:41:38.025325+00:00", "event": "cleanup_failed", "sandbox_name": "sbx-dfff6648a8", "error": "Docker daemon connection lost"}
+{"ts": "2026-10-24T02:41:38.087536+00:00", "event": "workflow_started", "run_id": "run-rec-fresh-01", "sandbox_name": "sbx-8d72387469", "policy": "fresh"}
+{"ts": "2026-10-24T02:41:39.801865+00:00", "event": "step_failed", "run_id": "run-rec-fresh-01", "failed_step": 7, "error": "Controlled failure at step 7: exit code 42", "policy": "fresh"}
+{"ts": "2026-10-24T02:41:39.802866+00:00", "event": "policy_applied", "run_id": "run-rec-fresh-01", "policy": "fresh", "failed_step": 7, "total_steps": 10, "action": "Executing fresh recovery strategy"}
+{"ts": "2026-10-24T02:41:39.993293+00:00", "event": "recovery_completed", "run_id": "run-rec-fresh-01", "recovered_sandbox": "sbx-fresh75102ed991", "success": true}
+{"ts": "2026-10-24T02:41:39.994296+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-fresh75102ed991", "cleanup_success": true}
+{"ts": "2026-10-24T02:41:40.074434+00:00", "event": "workflow_started", "run_id": "run-rec-rollback-01", "sandbox_name": "sbx-af97be1c31", "policy": "rollback"}
+{"ts": "2026-10-24T02:41:41.762727+00:00", "event": "step_failed", "run_id": "run-rec-rollback-01", "failed_step": 7, "error": "Controlled failure at step 7: exit code 42", "policy": "rollback"}
+{"ts": "2026-10-24T02:41:41.762727+00:00", "event": "policy_applied", "run_id": "run-rec-rollback-01", "policy": "rollback", "failed_step": 7, "total_steps": 10, "action": "Executing rollback recovery strategy"}
+{"ts": "2026-10-24T02:41:41.841123+00:00", "event": "recovery_completed", "run_id": "run-rec-rollback-01", "recovered_sandbox": "sbx-af97be1c31", "success": true}
+{"ts": "2026-10-24T02:41:41.842645+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-af97be1c31", "cleanup_success": true}
+{"ts": "2026-10-24T02:41:41.907529+00:00", "event": "workflow_started", "run_id": "run-fail-fatal", "sandbox_name": "sbx-d2229d687a", "policy": "fresh"}
+{"ts": "2026-10-24T02:41:43.735853+00:00", "event": "cleanup_completed", "sandbox_name": "sbx-d2229d687a", "cleanup_success": true}

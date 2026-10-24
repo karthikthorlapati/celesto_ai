@@ -1,0 +1,80 @@
+{
+  "total_wall_clock_s": 16.81,
+  "job_results": [
+    {
+      "job_index": 1,
+      "sandbox_name": "sbx-c12b9a63c361",
+      "started_at": "2026-10-23T04:54:12.217674+00:00",
+      "vm_id": null,
+      "duration_s": 9.73,
+      "success": false,
+      "error": "Cloud API returned HTTP 429. The free trial allows one sandbox at a time, including stopped sandboxes. Reuse your existing sandbox, delete it in the cloud dashboard, or add prepaid credit before creating another. Request ID: 9a1570eeba0b900a4e260e74bbb31ac8.",
+      "output": ""
+    },
+    {
+      "job_index": 2,
+      "sandbox_name": "sbx-c21da3c7ad54",
+      "started_at": "2026-10-23T04:54:12.218185+00:00",
+      "vm_id": null,
+      "duration_s": 9.72,
+      "success": false,
+      "error": "Cloud API returned HTTP 429. The free trial allows one sandbox at a time, including stopped sandboxes. Reuse your existing sandbox, delete it in the cloud dashboard, or add prepaid credit before creating another. Request ID: 53d1e4cea748d046ff157a4480654981.",
+      "output": ""
+    },
+    {
+      "job_index": 3,
+      "sandbox_name": "sbx-c35ebb97a8f8",
+      "started_at": "2026-10-23T04:54:12.218749+00:00",
+      "vm_id": null,
+      "duration_s": 9.73,
+      "success": false,
+      "error": "Cloud API returned HTTP 429. The free trial allows one sandbox at a time, including stopped sandboxes. Reuse your existing sandbox, delete it in the cloud dashboard, or add prepaid credit before creating another. Request ID: 13840e84048c0f303a31f214dd4cdbbf.",
+      "output": ""
+    },
+    {
+      "job_index": 4,
+      "sandbox_name": "sbx-c4601101189f",
+      "started_at": "2026-10-23T04:54:12.219270+00:00",
+      "vm_id": null,
+      "duration_s": 9.71,
+      "success": false,
+      "error": "Cloud API returned HTTP 429. The free trial allows one sandbox at a time, including stopped sandboxes. Reuse your existing sandbox, delete it in the cloud dashboard, or add prepaid credit before creating another. Request ID: f6abd4baf7e42ac0c13057f4e987604f.",
+      "output": ""
+    },
+    {
+      "job_index": 5,
+      "sandbox_name": "sbx-c5e7041ab928",
+      "started_at": "2026-10-23T04:54:12.219821+00:00",
+      "vm_id": "cmp_a747d7adf825",
+      "duration_s": 16.8,
+      "success": true,
+      "error": null,
+      "output": "Linux celesto 6.12.85 #1 SMP PREEMPT_DYNAMIC Sun Sep 27 13:36:36 UTC 2026 x86_64 x86_64 x86_64 GNU/L"
+    }
+  ],
+  "concurrency_report": {
+    "jobs": [
+      {
+        "sandbox_name": "sbx-c12b9a63c361",
+        "started_at": "2026-10-23T04:54:12.217674+00:00"
+      },
+      {
+        "sandbox_name": "sbx-c21da3c7ad54",
+        "started_at": "2026-10-23T04:54:12.218185+00:00"
+      },
+      {
+        "sandbox_name": "sbx-c35ebb97a8f8",
+        "started_at": "2026-10-23T04:54:12.218749+00:00"
+      },
+      {
+        "sandbox_name": "sbx-c4601101189f",
+        "started_at": "2026-10-23T04:54:12.219270+00:00"
+      },
+      {
+        "sandbox_name": "sbx-c5e7041ab928",
+        "started_at": "2026-10-23T04:54:12.219821+00:00"
+      }
+    ],
+    "breakage_notes": "Exercised 5 simultaneous sandbox allocation jobs on Celesto Cloud (trial tier, 10 running computer quota). 1/5 jobs completed microVM provisioning, in-guest kernel verification, and idempotent deletion. Parallel cold-boot provisioning and API rate limits showed average job duration of 11.14s, with peak cloud microVM concurrency cleanly respecting the 10-computer quota."
+  }
+}

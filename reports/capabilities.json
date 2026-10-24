@@ -1,0 +1,12 @@
+[
+  {
+    "id": "safety_hooks",
+    "why": "Safety hooks intercept and veto commands before execution, preventing credential extraction, destructive disk commands, and escape vectors before they can reach the isolated guest microVM runtime, while incurring negligible sub-millisecond policy evaluation overhead.",
+    "evidence_path": "reports/evidence/safety_hooks_evidence.log"
+  },
+  {
+    "id": "network_policy",
+    "why": "Celesto network policy enforces kernel-level egress filtering and complete outbound network isolation, guaranteeing that prompt-injection exfiltration payloads cannot transmit data even if commands bypass application-layer filters, at the trade-off of requiring pre-cached package dependencies.",
+    "evidence_path": "reports/evidence/network_policy_evidence.log"
+  }
+]

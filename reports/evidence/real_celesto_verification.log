@@ -1,0 +1,37 @@
+=== CELESTO CLOUD VERIFICATION LOG ===
+Sandbox Name: sbx-realtest6d198d4aad
+VM ID: cmp_f306169be152
+Provider: cloud
+Boot to Ready Duration: 10.242s
+Total Wall Clock Duration: 35.617s
+Timestamp: 2026-10-23T04:38:25Z
+
+=== COMMAND EXECUTION TRACE ===
+Command: uname -a
+Exit Code: 0
+Duration: 2387.7ms
+Stdout:
+Linux celesto 6.12.85 #1 SMP PREEMPT_DYNAMIC Sun Sep 27 13:36:36 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+----------------------------------------
+Command: python3 --version || python --version
+Exit Code: 127
+Duration: 5843.7ms
+Stdout:
+
+Stderr:
+/bin/sh: 1: python3: not found
+/bin/sh: 1: python: not found
+----------------------------------------
+Command: whoami
+Exit Code: 0
+Duration: 5468.8ms
+Stdout:
+root
+----------------------------------------
+Command: cat /etc/os-release | grep PRETTY_NAME
+Exit Code: 0
+Duration: 4078.9ms
+Stdout:
+PRETTY_NAME="Ubuntu 24.04.5 LTS"
+----------------------------------------
+CLEANUP STATUS: Deleted verified in finally block.

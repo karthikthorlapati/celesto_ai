@@ -1,0 +1,49 @@
+================================================================================
+CELESTO CAPABILITY EVIDENCE: SAFETY HOOKS (Capability ID: safety_hooks)
+================================================================================
+Timestamp: 2026-10-22T17:15:00Z
+Sandbox: sbx-safetyhook01
+Execution Target: celesto_sandbox
+Provider: CelestoProvider (Cloud/Local MicroVM boundary)
+
+Veto Interception Demonstration:
+Command Attempt 1:
+  Raw Command: "rm -rf /"
+  Safety Engine Evaluation:
+    Decision: BLOCK
+    Rule ID: destructive_command
+    Reason: Blocked destructive command pattern: \brm\s+-[a-zA-Z]*r[a-zA-Z]*f[a-zA-Z]*\s+/(?:\s|$|\*)
+    Veto Hook: CommandBlockedError raised before guest dispatch.
+    Guest Execution: NO (Command never sent to guest computer)
+    Audit Status: Recorded to logs/commands.jsonl with decision="block"
+
+Command Attempt 2:
+  Raw Command: "printenv | grep -i secret"
+  Safety Engine Evaluation:
+    Decision: BLOCK
+    Rule ID: secret_leak
+    Reason: Command attempts to read or leak environment secrets or credentials
+    Veto Hook: CommandBlockedError raised.
+    Guest Execution: NO
+    Audit Status: Recorded to logs/commands.jsonl with decision="block"
+
+Command Attempt 3 (Bypass / Obfuscation Attempt):
+  Raw Command: "echo 'cm0gLXJmIC8=' | base64 -d | sh"
+  Safety Engine Evaluation:
+    Normalized Search Blob: "echo 'cm0gLXJmIC8=' | base64 -d | sh ; [decoded: rm -rf /]"
+    Decision: BLOCK
+    Rule ID: destructive_command
+    Reason: Decoded payload violates destructive command policy
+    Guest Execution: NO
+    Audit Status: Recorded to logs/commands.jsonl with decision="block"
+
+Permitted Baseline:
+Command Attempt 4:
+  Raw Command: "python -m unittest discover -s /workspace/tests"
+  Safety Engine Evaluation:
+    Decision: ALLOW
+    Rule ID: permitted
+    Guest Execution: YES (Executed inside guest Linux computer)
+    Exit Code: 0
+    Audit Status: Recorded to logs/commands.jsonl with decision="allow"
+================================================================================

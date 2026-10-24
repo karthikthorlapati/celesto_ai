@@ -1,0 +1,17 @@
+{
+  "run_id": "run-recovery-fail78ce8b6b13a",
+  "original_sandbox": "sbx-fail78ce8b6b13a",
+  "recovered_sandbox": "sbx-fresh2358233931",
+  "policy": "fresh",
+  "failed_step": 7,
+  "total_steps": 10,
+  "recovered": true,
+  "success": true,
+  "task_report": {
+    "status": "recovered",
+    "verification": "passed",
+    "artifact": "task_report.json"
+  },
+  "cleanup_performed": true,
+  "cleanup_success": true
+}

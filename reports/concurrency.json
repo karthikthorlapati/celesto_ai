@@ -1,0 +1,25 @@
+{
+  "jobs": [
+    {
+      "sandbox_name": "sbx-c12b9a63c361",
+      "started_at": "2026-10-23T04:54:12.217674+00:00"
+    },
+    {
+      "sandbox_name": "sbx-c21da3c7ad54",
+      "started_at": "2026-10-23T04:54:12.218185+00:00"
+    },
+    {
+      "sandbox_name": "sbx-c35ebb97a8f8",
+      "started_at": "2026-10-23T04:54:12.218749+00:00"
+    },
+    {
+      "sandbox_name": "sbx-c4601101189f",
+      "started_at": "2026-10-23T04:54:12.219270+00:00"
+    },
+    {
+      "sandbox_name": "sbx-c5e7041ab928",
+      "started_at": "2026-10-23T04:54:12.219821+00:00"
+    }
+  ],
+  "breakage_notes": "Exercised 5 simultaneous sandbox allocation jobs on Celesto Cloud. Exactly 1 job successfully provisioned the microVM, executed in-guest kernel verification, and cleaned up, while 4 jobs were throttled with HTTP 429 ('The free trial allows one sandbox at a time, including stopped sandboxes'). All handles performed idempotent cleanup, demonstrating honest concurrency limits under the free trial quota."
+}

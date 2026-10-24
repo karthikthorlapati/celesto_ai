@@ -1,0 +1,43 @@
+# Python & Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Environment files and credentials
+.env
+*.key
+*.pem
+*.secret
+
+# IDE and OS files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.db
+.DS_Store
+Thumbs.db
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+downloads/
+inspect_celesto/
+
+# Scratch & temporary logs
+scratch/
+tmp/
+*.tmp

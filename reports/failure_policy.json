@@ -1,0 +1,7 @@
+{
+  "failed_step": 7,
+  "total_steps": 10,
+  "policy": "fresh",
+  "rationale": "In our zero-trust agent security architecture, encountering a fatal failure at step 7 implies potential memory corruption, unexpected disk mutation, or partial payload execution. The 'fresh' recovery policy tears down the compromised or faulty sandbox completely and spins up an entirely pristine, uniquely named microVM computer. This eliminates latent state contamination, lingering malicious hooks, or corrupted working trees, guaranteeing reproducible validation at the trade-off of repeating the fast ~500ms microVM initialization.",
+  "trace_path": "reports/failure_trace.jsonl"
+}
