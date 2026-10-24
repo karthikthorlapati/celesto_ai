@@ -179,7 +179,7 @@ Follow these instructions to run SentinelLab locally or via Docker Compose in un
 
 ### 1. Clone & Configure Environment
 ```bash
-git clone <repo-url> celesto_ai
+git clone https://github.com/karthikthorlapati/celesto_ai.git celesto_ai
 cd celesto_ai
 
 # Copy example environment configuration
